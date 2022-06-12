@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "dependencies": {},
     "devDependencies": {
+        "@iconify-icons/mdi": "1.2.41",
+        "@iconify-json/mdi": "1.1.47",
+        "@iconify/collections": "1.0.241",
+        "@iconify/json": "2.2.27",
         "prettier": "2.8.4"
     },
     "prettier": {

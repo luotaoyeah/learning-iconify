@@ -1,12 +1,53 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify-icons/mdi': 1.2.41
+  '@iconify-json/mdi': 1.1.47
+  '@iconify/collections': 1.0.241
+  '@iconify/json': 2.2.27
   prettier: 2.8.4
 
 devDependencies:
+  '@iconify-icons/mdi': 1.2.41
+  '@iconify-json/mdi': 1.1.47
+  '@iconify/collections': 1.0.241
+  '@iconify/json': 2.2.27
   prettier: 2.8.4
 
 packages:
+
+  /@iconify-icons/mdi/1.2.41:
+    resolution: {integrity: sha512-duqTSmY0H+e/LdSZD5B8PxnJfdfh6qdLVnrI6klHGSSykz23d1KdvoPpfFpgF8mWWDm4UlHIO+rrvsqMLEb3NQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/mdi/1.1.47:
+    resolution: {integrity: sha512-5E5mazdQaMNl3gmLL7whteh61weJBRfW2R9Rq0/pgAe9B0j22mViyADm/ooHZx07Vkc0ZqnkgUrpT6OsS9Qhzg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify/collections/1.0.241:
+    resolution: {integrity: sha512-Moej1Ku/d5LAsZJhO+ciDgi6vlq35HVFw6tYms4IaP+MlDnydI2XVSGNlSUjHYF1jSo9DkSHH2F1NXi3AQm41w==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify/json/2.2.27:
+    resolution: {integrity: sha512-8Fqx7iP9XOBOJY20HtFeqAJ90Tr0/RX7rb9wqhEHBEdF4vX6H/riWXlGUXTWsB04h8FbJ3Lgs0sTMAKDUzPtPA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+      pathe: 1.1.0
+    dev: true
+
+  /@iconify/types/2.0.0:
+    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
+    dev: true
+
+  /pathe/1.1.0:
+    resolution: {integrity: sha512-ODbEPR0KKHqECXW1GoxdDb+AZvULmXjVPy4rt+pGo2+TnjJTIPJQSVS6N63n8T2Ip+syHhbn52OewKicV0373w==}
+    dev: true
 
   /prettier/2.8.4:
     resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
