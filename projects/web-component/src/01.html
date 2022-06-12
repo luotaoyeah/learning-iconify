@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>01</title>
+        <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    </head>
+    <body style="font-family: SimSun">
+        <iconify-icon icon="mdi:alert"></iconify-icon>
+
+        <fieldset>
+            <legend>style</legend>
+
+            <iconify-icon icon="mdi:alert" style="color: #ff0000; font-size: 48px"></iconify-icon>
+        </fieldset>
+
+        <fieldset>
+            <legend>flip</legend>
+
+            <p>No transformations: <iconify-icon icon="bi:check2-circle"></iconify-icon></p>
+            <p>
+                Horizontal flip:
+                <iconify-icon icon="bi:check2-circle" flip="horizontal"></iconify-icon>
+            </p>
+            <p>
+                Vertical flip:
+                <iconify-icon icon="bi:check2-circle" flip="vertical"></iconify-icon>
+            </p>
+            <p>
+                Horizontal and vertical flip (same as 180° rotation):
+                <iconify-icon icon="bi:check2-circle" flip="horizontal,vertical"></iconify-icon>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>rotate</legend>
+
+            <p>
+                90° rotation:
+                <iconify-icon icon="bi:check2-circle" rotate="90deg"></iconify-icon>
+            </p>
+            <p>
+                180° rotation:
+                <iconify-icon icon="bi:check2-circle" rotate="180deg"></iconify-icon>
+            </p>
+            <p>
+                270° rotation:
+                <iconify-icon icon="bi:check2-circle" rotate="270deg"></iconify-icon>
+            </p>
+        </fieldset>
+    </body>
+</html>
