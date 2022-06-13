@@ -6,7 +6,16 @@
         <Icon icon="mdi:heart" rotate="270" style="color: #ff0000; font-size: 48px"></Icon>
         <Icon icon="mdi:heart" rotate="270" style="color: #ff0000" width="48"></Icon>
         <Icon height="48" icon="mdi:heart" rotate="270" style="color: #ff0000"></Icon>
+
         <Icon color="#ff0000" height="48" icon="mdi:heart" rotate="270"></Icon>
+    </fieldset>
+
+    <fieldset>
+        <legend></legend>
+
+        <Icon height="48" icon="mdi:check" style="color: #ff0000"></Icon>
+        <Icon height="48" icon="mdi:check-network" style="color: #ff0000"></Icon>
+        <Icon height="48" icon="mdi:check-outline" style="color: #ff0000"></Icon>
     </fieldset>
 </template>
 
